@@ -34,6 +34,8 @@ Besides improving the action of the instrument and because a piece of the intend
 I learned a lot creating this instrument and believe that with these changes the Invisible Percussion Kit could be a really exciting instrument for many different people with differing levels of skill to play with!
 
 ### Images && Video Demo
-<img src="/images/sticks.jpg" alt="sticks" width="200"/>
-<img src="/images/top.jpg" alt="top" width="200"/>
-<img src="/images/arduino.jpg" alt="Arduino" width="200"/>
+<figure class="third">
+  <img src="/images/sticks.jpg" alt="sticks" width="200" style="display:inline-block"/>
+  <img src="/images/top.jpg" alt="top" width="200" style="display:inline-block"/>
+  <img src="/images/arduino.jpg" alt="Arduino" width="200" style="display:inline-block"/>
+</figure>

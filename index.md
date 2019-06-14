@@ -36,16 +36,14 @@ I learned a lot creating this instrument and believe that with these changes the
 ### Images && Video Demo
 
 #### Image Documentation
-<img src="https://github.com/obriensarah/Invisible-Percussion-Kit/tree/master/images/sticks.jpg" alt="sticks" width="250"/>
+![sticks](/images/sticks.jpg)
+Shown above are the sticks, which are the two physical pieces of the Invisible Percussion Kit.
 
-<img src="https://github.com/obriensarah/Invisible-Percussion-Kit/tree/master/images/top.jpg" alt="top" width="250"/>
+![top](/images/top.jpg)
+Shown above is the open top of one of the sticks. You can see the mounted accelerometer at the top.
 
-<img src="https://github.com/obriensarah/Invisible-Percussion-Kit/tree/master/images/arduino.jpg" alt="Arduino" width="250"/>
-
-Image descriptions, from top to bottom:
-- The sticks, which are the two physical pieces of the Invisible Percussion Kit.
-- The open top of one of the sticks. Mounted accelerometer at the top is visible.
-- The wiring of the arduino. Each stick is plugged into the breadboard via protoboard (left stick is plugged into top 6 rows and right stick is plugged in immediately below.
+![arduino](/images/arduino.jpg)
+Shown above is the wiring of the arduino. Each stick is plugged into the breadboard via protoboard (left stick is plugged into top 6 rows and right stick is plugged in immediately below.
 
 #### Video Demo
 {% include youtubePlayer.html id=page.oSiBOY4iwuY %}

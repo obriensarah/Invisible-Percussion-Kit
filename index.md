@@ -33,4 +33,15 @@ Besides improving the action of the instrument and because a piece of the intend
 
 I learned a lot creating this instrument and believe that with these changes the Invisible Percussion Kit could be a really exciting instrument for many different people with differing levels of skill to play with!
 
-![Test](/images/IMG_1881.jpg)
+### Images && Video Demo
+
+<img src="/images/sticks.jpg" alt="sticks" width="250"/>
+
+<img src="/images/top.jpg" alt="top" width="250"/>
+
+<img src="/images/arduino.jpg" alt="Arduino" width="250"/>
+
+Image descriptions, from top to bottom:
+- The sticks, which are the two physical pieces of the Invisible Percussion Kit.
+- The open top of one of the sticks. Mounted accelerometer at the top is visible.
+- The wiring of the arduino. Each stick is plugged into the breadboard via protoboard (left stick is plugged into top 6 rows and right stick is plugged in immediately below.

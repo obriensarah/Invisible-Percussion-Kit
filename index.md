@@ -1,14 +1,30 @@
 # The Invisible Percussion Kit
 #### Sarah O'Brien - Digital Musical Instrument Design - Spring Quarter 2019 - Prof Stephan Moore
 
-### The Instrument
+### The Instrument && The User
 
-The Invisible Percussion Kit is an instrument.
+The Invisible Percussion Kit employs the already-existing visual and tactile mappings associated with drumming and percussion in order to make sounds on "invisible" percussive instruments. The instrument is programmed with 4 percussion sounds and, depending on where and how hard the player "hits" the air with the instrument's sticks, a specific sound will be emitted. The instrument was created to be an instrument played in an ensemble or band as opposed to a solo instrument, but users are encouraged to use the instrument as they see fit.
 
-### Jekyll Themes
+The Invisible Percussion Kit is an instrument meant both for non-percussionists looking to make music with friends and for aspiring or experienced percussionists who don't have or can't afford a drum kit or a specific set of percussive instruments. Using this instrument, anyone can make a beat with just the two sticks and a computer without having to lug around heavy or noisy percussion equipment.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/obriensarah/Invisible-Percussion-Kit/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Range of Musical Expression
 
-### Support or Contact
+The Invisible Percussion Kit allows a user to obtain his or her expected (as opposed to random) audio results from any given action while not being so rigid as not to allow any true musical expression. So, although the directions of air-hits are pre-programmed in order to provide expected outcomes, the user still has the freedom to change the both sound programmed onto each stick motion (in the code) and the  volume at which each sound is played (depending on how "fast" the user hits the air in that location). 
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Allowing for higher volumes on harder hits and lower volumes on softer hits creates space for the user to have fun with the instrument and to be more expressive overall on the the Invisible Percussion Kit. 
+
+### The Technology
+
+#### The Hardware
+
+The Invisible Percussion Kit is built using an Arduino Uno and two ADXL 337 accelerometers. Each accelerometer is mounted inside the top of a cardboard paper towel tube and wire feeds through the bottom of the tube to communicate with the Arduino.
+
+#### The Software
+
+The software for the Invisible Percussion Kit is written in both Arduino and Max. The signal processing is done in Arduino, and using serial communication the Arduino writes information to Max when a drum-hit is detected. In particular, Arduino writes the number associated with the drum hit detected (based on directional information from the accelerometer) and the volume at which to play the audio signal (based on the acceleration of the detected hit). Max then plays the given signal at the given volume. 
+
+The Arduino code employs a moving-average filter and debouncing techniques in order to make use of the instrument easier. The moving-average filter ensures that if a user's wrist twists slightly on a hit the instrument won't play an unexpected sound (one that isn't associated with the direction in which the hit is made). Debouncing ensures that the signal from the acceleration of a stick coming __off__ a hit won't result in the sound being played a second time.
+
+### The Challenges and The Future
+
+<img src = "" alt = "test">

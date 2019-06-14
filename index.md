@@ -36,11 +36,7 @@ I learned a lot creating this instrument and believe that with these changes the
 ### Images && Video Demo
 
 #### Image Documentation
-<img src="https://github.com/obriensarah/Invisible-Percussion-Kit/tree/master/images/sticks.jpg" alt="sticks" width="250"/>
-
-<img src="https://github.com/obriensarah/Invisible-Percussion-Kit/tree/master/images/top.jpg" alt="top" width="250"/>
-
-<img src="https://github.com/obriensarah/Invisible-Percussion-Kit/tree/master/images/arduino.jpg" alt="Arduino" width="250"/>
+![sticks](/images/sticks.jpg)
 
 Image descriptions, from top to bottom:
 - The sticks, which are the two physical pieces of the Invisible Percussion Kit.

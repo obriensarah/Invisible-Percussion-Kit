@@ -3,13 +3,13 @@
 
 ### The Instrument && The User
 
-The Invisible Percussion Kit employs the already-existing visual and tactile mappings associated with drumming and percussion in order to make sounds on "invisible" percussive instruments. The instrument is programmed with 4 percussion sounds and, depending on where and how hard the player "hits" the air with the instrument's sticks, a specific sound will be emitted. The instrument was created to be an instrument played in an ensemble or band as opposed to a solo instrument, but users are encouraged to use the instrument as they see fit.
+The Invisible Percussion Kit employs the already-existing visual and tactile mappings associated with drumming and percussion in order to make sounds on "invisible" percussive instruments. The instrument is programmed with 4 percussion sounds and, depending on the orientation  of the sticks and how hard the player "hits" the air with the instrument's sticks, a specific sound will be emitted. The instrument was created to be played in an ensemble or band as opposed to a solo instrument, but users are encouraged to use the Invisible Percussion Kit as they see fit.
 
 The Invisible Percussion Kit is an instrument meant both for non-percussionists looking to make music with friends and for aspiring or experienced percussionists who don't have or can't afford a drum kit or a specific set of percussive instruments. Using this instrument, anyone can make a beat with just the two sticks and a computer without having to lug around heavy or noisy percussion equipment.
 
 ### Range of Musical Expression
 
-The Invisible Percussion Kit allows a user to obtain his or her expected (as opposed to random) audio results from any given action while not being so rigid as not to allow any true musical expression. So, although the directions of air-hits are pre-programmed in order to provide expected outcomes, the user still has the freedom to change the both sound programmed onto each stick motion (in the code) and the  volume at which each sound is played (depending on how "fast" the user hits the air in that location). 
+The Invisible Percussion Kit allows a user to obtain his or her expected and non-random audio results from any given action while not being so rigid as to prevent any true musical expression. So, although the directions of air-hits are pre-programmed in order to provide expected outcomes given specific stick orientations, the user still has the freedom to change the both sound programmed onto each stick orientation (in the code) and the volume at which each sound is played (depending on how "hard" the user hits the air in that location). 
 
 Allowing for higher volumes on harder hits and lower volumes on softer hits creates space for the user to have fun with the instrument and to be more expressive overall on the the Invisible Percussion Kit. 
 
@@ -46,4 +46,4 @@ Shown above is the open top of one of the sticks. You can see the mounted accele
 Shown above is the wiring of the arduino. Each stick is plugged into the breadboard via protoboard (left stick is plugged into top 6 rows and right stick is plugged in immediately below.
 
 #### Video Demo
-{% include youtubePlayer.html id=page.oSiBOY4iwuY %}
+{% include youtubePlayer.html %}

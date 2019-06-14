@@ -33,4 +33,4 @@ Besides improving the action of the instrument and because a piece of the intend
 
 I learned a lot creating this instrument and believe that with these changes the Invisible Percussion Kit could be a really exciting instrument for many different people with differing levels of skill to play with!
 
-<img src = "IMG_7177.jpg" alt = "test">
+![Test](/images/IMG_1881.jpg)

@@ -1,5 +1,6 @@
 # The Invisible Percussion Kit
 #### Sarah O'Brien - Digital Musical Instrument Design - Spring Quarter 2019 - Prof Stephan Moore
+##### Code available in GitHub Repository
 
 ### The Instrument && The User
 

@@ -46,4 +46,4 @@ Shown above is the open top of one of the sticks. You can see the mounted accele
 Shown above is the wiring of the arduino. Each stick is plugged into the breadboard via protoboard (left stick is plugged into top 6 rows and right stick is plugged in immediately below.
 
 #### Video Demo
-{% include youtubePlayer.html id=page.oSiBOY4iwuY %}
+{% include youtubePlayer.html %}

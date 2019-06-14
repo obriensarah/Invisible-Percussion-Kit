@@ -25,6 +25,12 @@ The software for the Invisible Percussion Kit is written in both Arduino and Max
 
 The Arduino code employs a moving-average filter and debouncing techniques in order to make use of the instrument easier. The moving-average filter ensures that if a user's wrist twists slightly on a hit the instrument won't play an unexpected sound (one that isn't associated with the direction in which the hit is made). Debouncing ensures that the signal from the acceleration of a stick coming __off__ a hit won't result in the sound being played a second time.
 
-### The Challenges and The Future
+### The Challenges && The Future
+
+The most challenging piece of creating this instrument was incorporating the accelerometer data in a way that made for an accurate instrument. Specifically, because there is no way to anchor the sticks in any one orientation, it was easy for the axes to become misaligned and therefore the expected results of air hits to fail to occur. Using the moving-average filter and debouncing as signal processing techniques helped a lot to overcome these challenges, but there is still much more signal processing that would need to go into the code to make this instrument work as expected all the time. Apart from a software fix, some kind of finger holes or hand strap to anchor the hand so the user doesn't accidentally twist the sticks may be a helpful component to add to this instrument.
+
+Besides improving the action of the instrument and because a piece of the intended musical expression of the Invisible Percussion Kit is the ability to change the sounds programmed, creating a user-friendly GUI in order to upload percussion (or any other) sounds and choose which hits will correspond to each sound would be a useful and exciting next step for this instrument.
+
+I learned a lot creating this instrument and believe that with these changes the Invisible Percussion Kit could be a really exciting instrument for many different people with differing levels of skill to play with!
 
 <img src = "" alt = "test">
